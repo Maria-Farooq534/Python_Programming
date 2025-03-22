@@ -8,3 +8,8 @@ def reversed_string(string):
 print("The reversed string is : " ,reversed_string(user_input_string))
 
 #Method 02 : Using For loop
+print("Reverse string using for loop: ")
+reverse_user_string = ''
+for char in user_input_string:
+    reverse_user_string = char + reverse_user_string
+print(f"User reversed string is: {reverse_user_string}")
