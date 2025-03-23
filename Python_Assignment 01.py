@@ -22,10 +22,15 @@ print(f"User reversed string is: {reverse_user_string}")
 user_input_string = input("Enter a string: ")
 #Method 01
 for vowel in user_input_string:
-    if vowel in ['a','e','i','o','u']:
-        print(vowel)
+    if vowel.lower() in ['a','e','i','o','u']:
+        print("Number of vowels: " , vowel)
         
 #Method 02
 for vowel in user_input_string:
-    if vowel.lower() == "aeiou":
-        print(vowel)
+    if vowel.lower() in "aeiou":
+        print("The vowels: " , vowel)
+#Method 03 : Using a Function
+def check_vowels(string):
+    vowels = "aeiouAEIOU"
+    return sum(1 for char in string if char in vowels)   
+print("The vowels in the string: " , check_vowels(user_input_string))
