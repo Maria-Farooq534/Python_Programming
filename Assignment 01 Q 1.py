@@ -17,6 +17,7 @@ print(f"User reversed string is: {reverse_user_string}")
 
 '''
 
+
 #Question 01 : Part 02
 #Numbers of vowels in the string
 user_input_string = input("Enter a string: ")
@@ -27,8 +28,6 @@ for vowel in user_input_string:
         print("Number of vowels: " , vowel)
         sum_of_vowels += vowel
 print("Number of vowels: " , len(sum_of_vowels))
-        
-
 #Method 02 : Using a Function
 print("Method 02 : Counting number of vowels using a function:")
 
