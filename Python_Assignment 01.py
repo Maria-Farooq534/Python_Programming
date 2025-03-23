@@ -26,14 +26,13 @@ for vowel in user_input_string:
     if vowel.lower() in ['a','e','i','o','u']:
         print("Number of vowels: " , vowel)
         sum_of_vowels += vowel
-    print("Number of vowels: " , len(sum_of_vowels))
+print("Number of vowels: " , len(sum_of_vowels))
         
-#Method 02
-for vowel in user_input_string:
-    if vowel.lower() in "aeiou":
-        print("The vowels: " , vowel)
-#Method 03 : Using a Function
+
+#Method 02 : Using a Function
+print("Method 02 : Counting number of vowels using a function:")
+
 def check_vowels(string):
     vowels = "aeiouAEIOU"
-    return sum(1 for char in string if char in vowels)   
+    return sum(1 for char in string if char in vowels)
 print("The vowels in the string: " , check_vowels(user_input_string))
