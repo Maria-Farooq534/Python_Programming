@@ -25,7 +25,7 @@ def number_check(number):
     else:
         print(f"{number} is an odd number.")
 
-print(number_check("The number you have entered: ", user_input_integer))
+print("The number you have entered: ", number_check(user_input_integer))
 
 # ---------------------------- For Float ---------------------------
 
