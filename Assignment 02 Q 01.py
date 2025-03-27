@@ -1,5 +1,5 @@
 #For String
-
+print(" ")
 user_input_string = input("Enter a string: ")
 
 user_input_integer = int(input("Enter an Integer: "))
@@ -8,12 +8,12 @@ user_input_bool = bool(input("Enter a bool Value (True/False): "))
 
 user_input_float = float(input("Enter a float: "))
 
-
+print(" ")
 print("Given string:" , user_input_string)
 print("Given Integer Value:" , user_input_integer)
 print("Given Boolean Value:" , user_input_bool)
 print("Given Float Value:" , user_input_float)
-
+print(" ")
 
 #Converting it to uppercase
 
