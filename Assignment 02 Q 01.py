@@ -8,10 +8,12 @@ user_input_bool = bool(input("Enter a bool Value (True/False): "))
 
 user_input_float = float(input("Enter a float: "))
 
+print(" ")
 print("Given string:" , user_input_string)
 print("Given Integer Value:" , user_input_integer)
 print("Given Boolean Value:" , user_input_bool)
 print("Given Float Value:" , user_input_float)
+print(" ")
 
 #Converting it to uppercase
 
@@ -21,11 +23,11 @@ print("Given string in uppercase:" , user_input_string.upper())
 
 def number_check(number):
     if number % 2 == 0:
-        print(f"{number} is an even number.")
+        print(f"The number you have entered: {number} is an even number.")
     else:
-        print(f"{number} is an odd number.")
+        print(f"The number you have entered: {number} is an odd number.")
 
-print("The number you have entered: ", number_check(user_input_integer))
+number_check(user_input_integer)
 
 # ---------------------------- For Float ---------------------------
 
