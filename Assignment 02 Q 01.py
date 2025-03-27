@@ -8,12 +8,12 @@ user_input_bool = bool(input("Enter a bool Value (True/False): "))
 
 user_input_float = float(input("Enter a float: "))
 
-print(" ")
+
 print("Given string:" , user_input_string)
 print("Given Integer Value:" , user_input_integer)
 print("Given Boolean Value:" , user_input_bool)
 print("Given Float Value:" , user_input_float)
-print(" ")
+
 
 #Converting it to uppercase
 
@@ -26,6 +26,7 @@ def number_check(number):
         print(f"The number you have entered: {number} is an even number.")
     else:
         print(f"The number you have entered: {number} is an odd number.")
+
 
 number_check(user_input_integer)
 
