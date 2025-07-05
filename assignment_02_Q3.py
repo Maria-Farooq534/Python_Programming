@@ -18,7 +18,7 @@ for i in range(1, length_of_list + 1):
 
 print(f"\nThe list of integers: {integer_list}")
 # # 2. Loops through the list and prints out each number.
-print(f"The numbers in {integer_list} are:\n")
+print(f"The numbers in list are:\n")
 for num in integer_list:
     print(num)
 
@@ -26,7 +26,7 @@ for num in integer_list:
     
 
 # # 3. If a number is greater than 10, skips it using the continue statement.
-print("Skipping numbers:")
+print("\nSkipping numbers:")
 new_list = []
 for num in integer_list:
     if num > 10 and num != 20:
@@ -39,5 +39,11 @@ print(f"\nNew list after skipping numbers greater than 10 is : {new_list}")
 for num in new_list:
     if num == 20:
         print(f"Stop the loop as the number is 20")
-    break
+        break
+    print(f"Number: {num}")
+    # 5. After the loop ends, prints a message that the loop ended naturally.
+else:
+    print("The loop ended naturally without encountring 20.")
+
+
 
